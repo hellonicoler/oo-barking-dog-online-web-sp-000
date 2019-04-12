@@ -11,6 +11,7 @@ class Dog
   end
   def bark=(bark)
     @bark = bark
+    @bark = "woof!"
   end
   
   #getter methods
@@ -20,6 +21,5 @@ class Dog
   
   def bark
     @bark 
-    puts "woof!"
   end
 end
